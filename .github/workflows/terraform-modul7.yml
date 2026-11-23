@@ -3,14 +3,9 @@ name: terraform-modul7
 on:
   pull_request:
     branches: [main]
-    paths:
-      - 'modul7/**'
-      - '.github/workflows/terraform-modul7.yml'
+
   push:
     branches: [main]
-    paths:
-      - 'modul7/**'
-      - '.github/workflows/terraform-modul7.yml'
 
 permissions:
   id-token: write
