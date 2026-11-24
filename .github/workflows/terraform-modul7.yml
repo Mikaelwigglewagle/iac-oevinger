@@ -19,7 +19,11 @@ permissions:
 
 defaults:
   run:
+<<<<<<< HEAD
     working-directory: modul7
+=======
+    working-directory: .
+>>>>>>> 9f7d9a2ef83cf36647fce5d17b3e2933a811dc7b
 
 env:
   ARM_USE_OIDC: "true"
