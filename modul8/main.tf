@@ -21,7 +21,7 @@ resource "azurerm_resource_group" "rg" {
 }
 
 module "network" {
-  source = "./modules/network"
+  source = "git::https://github.com/Mikaelwigglewagle/iac-oevinger.git//modules/network?ref=network-v1.1.0"
 
   name_prefix         = local.name_prefix
   location            = var.location
